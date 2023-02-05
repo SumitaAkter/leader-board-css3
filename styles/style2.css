@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.round {
+    width: 200px;
+
+    background-color: rgb(245, 212, 164);
+    padding: 20px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+
+}
+
+.input-data {
+    display: flex;
+    background-color: red;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+.round .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: rgb(215, 212, 212);
+}
